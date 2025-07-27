@@ -12,6 +12,13 @@
       }
     ]
   },
+{
+"question": "What is an Object?",
+"answer": "Object is collection of same data type values",
+"category": "logical",
+"difficulty": "simple",
+"answers": []
+},
   {
     "question": "Write a code for **Palindrome** ?",
     "answer": null,
