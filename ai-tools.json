@@ -1,22 +1,22 @@
 [
- {
-  "name": "chatgpt",
-  "description": "description",
-  "website": "https://google.com",
-  "type": "API",
-  "pricing": "Freemium",
-  "category": "Text Generation",
-  "tags": ["tags"],
-  "features": ["feature1"]
-},
-{
-  "name": "Copy.ai",
-  "description": "AI writing assistant",
-  "website": "https://copy.ai",
-  "type": "API",
-  "pricing": "Free + Paid",
-  "category": "Text Generation",
-  "tags": ["tags"],
-  "features": ["feature1"]
-},
+  {
+    "name": "chatgpt",
+    "description": "description",
+    "website": "https://google.com",
+    "type": "API",
+    "pricing": "Freemium",
+    "category": "Text Generation",
+    "tags": ["tags"],
+    "features": ["feature1"]
+  },
+  {
+    "name": "Copy.ai",
+    "description": "AI writing assistant",
+    "website": "https://copy.ai",
+    "type": "API",
+    "pricing": "Free + Paid",
+    "category": "Text Generation",
+    "tags": ["tags"],
+    "features": ["feature1"]
+  }
 ]
