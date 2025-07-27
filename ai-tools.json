@@ -9,12 +9,14 @@
   "tags": ["tags"],
   "features": ["feature1"]
 },
-
-  {
-    "name": "Copy.ai",
-    "description": "AI writing assistant",
-    "url": "https://copy.ai",
-    "type": "Free + Paid",
-    "category": "Marketing"
-  }
+{
+  "name": "Copy.ai",
+  "description": "AI writing assistant",
+  "website": "https://copy.ai",
+  "type": "API",
+  "pricing": "Free + Paid",
+  "category": "Text Generation",
+  "tags": ["tags"],
+  "features": ["feature1"]
+},
 ]
