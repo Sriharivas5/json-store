@@ -18,5 +18,285 @@
     "category": "Text Generation",
     "tags": ["tags"],
     "features": ["feature1"]
+  },
+  {
+    "name": "Jasper",
+    "description": "AI content generation for marketers",
+    "website": "https://www.jasper.ai",
+    "type": "Web",
+    "pricing": "Paid",
+    "category": "Content Creation",
+    "tags": ["marketing", "copywriting"],
+    "features": ["Templates", "SEO mode", "Team collaboration"]
+  },
+  {
+    "name": "Synthesia",
+    "description": "AI video creation from text",
+    "website": "https://www.synthesia.io",
+    "type": "Web",
+    "pricing": "Paid",
+    "category": "Video Generation",
+    "tags": ["avatar", "video", "voice"],
+    "features": ["Text to video", "AI avatars", "Multi-language"]
+  },
+  {
+    "name": "Pictory",
+    "description": "Turn long content into short videos",
+    "website": "https://pictory.ai",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "Video Editing",
+    "tags": ["video", "marketing"],
+    "features": ["Text to video", "AI summaries"]
+  },
+  {
+    "name": "Runway ML",
+    "description": "Creative AI for image and video editing",
+    "website": "https://runwayml.com",
+    "type": "Web + API",
+    "pricing": "Free + Paid",
+    "category": "Image Editing",
+    "tags": ["video", "design"],
+    "features": ["Inpainting", "Green screen", "Gen-2 AI"]
+  },
+  {
+    "name": "Grammarly",
+    "description": "AI-powered writing assistant",
+    "website": "https://grammarly.com",
+    "type": "Browser Extension",
+    "pricing": "Free + Paid",
+    "category": "Productivity",
+    "tags": ["writing", "correction"],
+    "features": ["Grammar check", "Tone suggestions"]
+  },
+  {
+    "name": "Notion AI",
+    "description": "AI-powered workspace assistant",
+    "website": "https://www.notion.so/product/ai",
+    "type": "App",
+    "pricing": "Paid",
+    "category": "Productivity",
+    "tags": ["note-taking", "assistant"],
+    "features": ["Writing help", "Task automation"]
+  },
+  {
+    "name": "Descript",
+    "description": "All-in-one audio and video editor",
+    "website": "https://www.descript.com",
+    "type": "Web + Desktop",
+    "pricing": "Freemium",
+    "category": "Audio Editing",
+    "tags": ["podcast", "transcription"],
+    "features": ["Overdub", "Text-based editing"]
+  },
+  {
+    "name": "Lumen5",
+    "description": "Video creation from blog content",
+    "website": "https://lumen5.com",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "Video Generation",
+    "tags": ["marketing", "content"],
+    "features": ["Drag & drop", "Brand templates"]
+  },
+  {
+    "name": "Chatsonic",
+    "description": "ChatGPT alternative with real-time data",
+    "website": "https://writesonic.com/chat",
+    "type": "Web + API",
+    "pricing": "Free + Paid",
+    "category": "Chatbot",
+    "tags": ["real-time", "search"],
+    "features": ["Voice commands", "Google Search integration"]
+  },
+  {
+    "name": "Replika",
+    "description": "AI companion chatbot",
+    "website": "https://replika.ai",
+    "type": "App",
+    "pricing": "Freemium",
+    "category": "Companion",
+    "tags": ["chatbot", "mental health"],
+    "features": ["Voice chat", "Role-play"]
+  },
+  {
+    "name": "Surfer SEO",
+    "description": "AI for content optimization",
+    "website": "https://surferseo.com",
+    "type": "Web",
+    "pricing": "Paid",
+    "category": "SEO",
+    "tags": ["seo", "ranking"],
+    "features": ["Keyword research", "Content planner"]
+  },
+  {
+    "name": "Leonardo AI",
+    "description": "AI art and game asset creation",
+    "website": "https://leonardo.ai",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Image Generation",
+    "tags": ["game", "art", "assets"],
+    "features": ["Prompt-based", "Style templates"]
+  },
+  {
+    "name": "Durable",
+    "description": "AI website builder in 30 seconds",
+    "website": "https://durable.co",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "Web Development",
+    "tags": ["no-code", "builder"],
+    "features": ["Auto website", "CRM"]
+  },
+  {
+    "name": "Murf AI",
+    "description": "AI voice generator for presentations",
+    "website": "https://murf.ai",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Text to Speech",
+    "tags": ["voice", "narration"],
+    "features": ["Voice cloning", "Studio editor"]
+  },
+  {
+    "name": "Resemble AI",
+    "description": "Realistic AI voice synthesis",
+    "website": "https://www.resemble.ai",
+    "type": "API",
+    "pricing": "Paid",
+    "category": "Text to Speech",
+    "tags": ["voice", "api"],
+    "features": ["Voice cloning", "Language support"]
+  },
+  {
+    "name": "Midjourney",
+    "description": "AI image generator via Discord",
+    "website": "https://midjourney.com",
+    "type": "Bot",
+    "pricing": "Paid",
+    "category": "Image Generation",
+    "tags": ["art", "illustration"],
+    "features": ["Prompt-based", "High detail"]
+  },
+  {
+    "name": "Kaiber",
+    "description": "AI video generation from prompts",
+    "website": "https://kaiber.ai",
+    "type": "Web",
+    "pricing": "Paid",
+    "category": "Video Generation",
+    "tags": ["animation", "AI art"],
+    "features": ["Music videos", "Story prompts"]
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "AI voice generation and dubbing",
+    "website": "https://elevenlabs.io",
+    "type": "Web + API",
+    "pricing": "Freemium",
+    "category": "Audio",
+    "tags": ["text to speech", "voice cloning"],
+    "features": ["Emotion", "Multiple languages"]
+  },
+  {
+    "name": "Lexica",
+    "description": "AI prompt search for image generation",
+    "website": "https://lexica.art",
+    "type": "Web",
+    "pricing": "Free",
+    "category": "Image Generation",
+    "tags": ["stable diffusion", "search"],
+    "features": ["Prompt explorer", "Image download"]
+  },
+  {
+    "name": "MagickPen",
+    "description": "AI content writer",
+    "website": "https://magickpen.com",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "Writing",
+    "tags": ["content", "writing"],
+    "features": ["Blog posts", "Essay writing"]
+  },
+  {
+    "name": "Cleanup.pictures",
+    "description": "AI image background/object removal",
+    "website": "https://cleanup.pictures",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Image Editing",
+    "tags": ["background", "editing"],
+    "features": ["Object removal", "High-res export"]
+  },
+  {
+    "name": "D-ID",
+    "description": "AI talking head videos",
+    "website": "https://www.d-id.com",
+    "type": "Web + API",
+    "pricing": "Paid",
+    "category": "Video",
+    "tags": ["avatar", "face animation"],
+    "features": ["Text to face", "Lip sync"]
+  },
+  {
+    "name": "QuillBot",
+    "description": "Paraphrasing and grammar tool",
+    "website": "https://quillbot.com",
+    "type": "Web + Extension",
+    "pricing": "Freemium",
+    "category": "Writing",
+    "tags": ["paraphrase", "grammar"],
+    "features": ["Modes", "Citations"]
+  },
+  {
+    "name": "Krisp",
+    "description": "AI noise cancellation for calls",
+    "website": "https://krisp.ai",
+    "type": "App",
+    "pricing": "Free + Paid",
+    "category": "Audio",
+    "tags": ["calls", "meetings"],
+    "features": ["Noise removal", "Echo cancel"]
+  },
+  {
+    "name": "ChatPDF",
+    "description": "Chat with any PDF document",
+    "website": "https://chatpdf.com",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "Education",
+    "tags": ["pdf", "learning"],
+    "features": ["Question answering", "Summarize"]
+  },
+  {
+    "name": "Tome",
+    "description": "AI storytelling and presentation tool",
+    "website": "https://tome.app",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Presentation",
+    "tags": ["slides", "pitch"],
+    "features": ["Auto presentation", "Embed content"]
+  },
+  {
+    "name": "HeyGen",
+    "description": "Create AI avatars for business videos",
+    "website": "https://www.heygen.com",
+    "type": "Web",
+    "pricing": "Paid",
+    "category": "Video",
+    "tags": ["avatar", "dubbing"],
+    "features": ["Multi-language", "AI presenters"]
+  },
+  {
+    "name": "Opus Clip",
+    "description": "AI video repurposing tool",
+    "website": "https://www.opus.pro",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Video Editing",
+    "tags": ["social", "repurpose"],
+    "features": ["Clip highlights", "Captions"]
   }
 ]
