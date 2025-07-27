@@ -1,11 +1,15 @@
 [
-  {
-    "name": "ChatGPT",
-    "description": "AI assistant by OpenAI",
-    "url": "https://chat.openai.com",
-    "type": "Free",
-    "category": "Productivity"
-  },
+ {
+  "name": "chatgpt",
+  "description": "description",
+  "website": "https://google.com",
+  "type": "API",
+  "pricing": "Freemium",
+  "category": "Text Generation",
+  "tags": ["tags"],
+  "features": ["feature1"]
+}
+
   {
     "name": "Copy.ai",
     "description": "AI writing assistant",
