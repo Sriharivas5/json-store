@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ChatGPT",
+    "description": "AI assistant by OpenAI",
+    "url": "https://chat.openai.com",
+    "type": "Free",
+    "category": "Productivity"
+  },
+  {
+    "name": "Copy.ai",
+    "description": "AI writing assistant",
+    "url": "https://copy.ai",
+    "type": "Free + Paid",
+    "category": "Marketing"
+  }
+]
