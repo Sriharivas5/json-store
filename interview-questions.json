@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is an Array?",
+    "answer": "Array is collection of same data type values",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "array is collection of **data**",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Write a code for **Palindrome** ?",
+    "answer": null,
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "// program to check if the string is palindrome or not",
+        "language": "",
+        "code": {
+          "content": "function checkPalindrome(string) {\n  const len = string.length;\n  for (let i = 0; i < len / 2; i++) {\n    if (string[i] !== string[len - 1 - i]) {\n      return 'It is not a palindrome';\n    }\n  }\n  return 'It is a palindrome';\n}\nconst string = prompt('Enter a string: ');\nconst value = checkPalindrome(string);\nconsole.log(value);",
+          "language": "javascript"
+        }
+      },
+      {
+        "content": "python",
+        "language": "",
+        "code": {
+          "content": "# Program to check if a string is palindrome or not\nmy_str = 'aIbohPhoBiA'\nmy_str = my_str.casefold()\nrev_str = reversed(my_str)\nif list(my_str) == list(rev_str):\n    print(\"The string is a palindrome.\")\nelse:\n    print(\"The string is not a palindrome.\")",
+          "language": "python"
+        }
+      }
+    ]
+  },
+  {
+    "question": "what is an object",
+    "answer": "object is an object",
+    "category": "technical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "object is an object",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "tell me about yourself",
+    "answer": "Hi there",
+    "category": "hr",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "Hi there",
+        "language": "",
+        "code": null
+      }
+    ]
+  }
+]
