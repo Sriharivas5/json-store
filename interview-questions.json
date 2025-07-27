@@ -17,7 +17,13 @@
 "answer": "Object is collection of same data type values",
 "category": "logical",
 "difficulty": "simple",
-"answers": []
+"answers": [
+  {
+"content": "array is collection of **data**",
+"language": "",
+"code": null
+}
+]
 },
   {
     "question": "Write a code for **Palindrome** ?",
