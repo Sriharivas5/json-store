@@ -948,5 +948,156 @@
     "category": "Entertainment",
     "tags": ["game", "text", "adventure"],
     "features": ["Story creation", "Role-play", "Multiplayer mode"]
+  },
+  {
+    "name": "Lovable.dev",
+    "description": "Build full-stack web apps in plain English without coding.",
+    "website": "https://lovable.dev",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "No-Code App Builder",
+    "tags": ["app builder", "no-code", "vibe coding"],
+    "features": ["Text-to-app", "Live editing", "GitHub export"]
+  },
+  {
+    "name": "Bolt",
+    "description": "Turn prompts into frontend prototypes quickly.",
+    "website": "https://bolt.new",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "No-Code App Builder",
+    "tags": ["frontend", "React", "prototype"],
+    "features": ["Prompt-based UI", "GitHub sync", "Live preview"]
+  },
+  {
+    "name": "Cursor",
+    "description": "A smart AI code editor that understands your project.",
+    "website": "https://anysphere.com",
+    "type": "Extension",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["programmer", "IDE", "autocomplete"],
+    "features": ["Repo-wide chat", "Context-aware suggestions", "AI edits"]
+  },
+  {
+    "name": "v0 by Vercel",
+    "description": "Generate Next.js UIs and APIs using text commands.",
+    "website": "https://v0.dev",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["frontend", "Next.js", "JAMstack"],
+    "features": ["Text-to-UI", "Immediate deployment", "GitHub export"]
+  },
+  {
+    "name": "Replit Ghostwriter",
+    "description": "Write and debug code inside your browser IDE.",
+    "website": "https://replit.com",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["cloud IDE", "pair programming", "auto-complete"],
+    "features": ["Inline suggestions", "Refactor code", "Live preview"]
+  },
+  {
+    "name": "Augment",
+    "description": "Understand and write AI-aware suggestions for big codebases.",
+    "website": "https://augment.com",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["enterprise", "refactor", "CI/CD"],
+    "features": ["Repo analysis", "Smart refactor", "CI-aware prompts"]
+  },
+  {
+    "name": "n8n",
+    "description": "Automate workflows by dragging and dropping tasks together.",
+    "website": "https://n8n.io",
+    "type": "Web + Open Source",
+    "pricing": "Free",
+    "category": "Automation",
+    "tags": ["no-code", "integration", "api"],
+    "features": ["Workflow builder", "Triggers & actions", "Self-host"]
+  },
+  {
+    "name": "Make (Integromat)",
+    "description": "Create automated processes across web apps without code.",
+    "website": "https://make.com",
+    "type": "Web",
+    "pricing": "Freemium",
+    "category": "Automation",
+    "tags": ["integration", "automation", "scripting"],
+    "features": ["Visual scenario builder", "Rich app library", "Scheduler"]
+  },
+  {
+    "name": "Supabase",
+    "description": "Instant backend-as-a-service for apps with database and auth.",
+    "website": "https://supabase.com",
+    "type": "Web + API",
+    "pricing": "Freemium",
+    "category": "Backend-as-a-Service",
+    "tags": ["database", "auth", "storage"],
+    "features": ["Postgres API", "Auth flows", "Edge functions"]
+  },
+  {
+    "name": "Bolt.diy",
+    "description": "Self-host Bolt framework to build apps locally with AI.",
+    "website": "https://bolt.diy",
+    "type": "Open Source",
+    "pricing": "Free",
+    "category": "AI App Builder",
+    "tags": ["self-host", "frontend", "prototype"],
+    "features": ["Run locally", "Prompt to app", "Open code"]
+  },
+  {
+    "name": "Codeium",
+    "description": "Suggests code as you type, like a smart autocomplete for developers.",
+    "website": "https://codeium.com",
+    "type": "Extension + Web",
+    "pricing": "Free",
+    "category": "AI Coding Assistant",
+    "tags": ["autocomplete", "IDE", "programming"],
+    "features": ["Multilanguage support", "Fast suggestions", "Context awareness"]
+  },
+  {
+    "name": "Tabnine",
+    "description": "Gives real-time code suggestions based on your coding style.",
+    "website": "https://tabnine.com",
+    "type": "Extension",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["IDE", "autocomplete", "pair programming"],
+    "features": ["Works in IDEs", "Private models", "Custom team training"]
+  },
+  {
+    "name": "CodeWhisperer",
+    "description": "Amazon’s tool that helps you write code with smart suggestions.",
+    "website": "https://aws.amazon.com/codewhisperer/",
+    "type": "Extension",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["AWS", "autocomplete", "secure coding"],
+    "features": ["Security scans", "IDE integrations", "Multi-language support"]
+  },
+  {
+    "name": "Kite",
+    "description": "Autocompletes Python and JavaScript code as you work.",
+    "website": "https://kite.com",
+    "type": "Extension",
+    "pricing": "Free",
+    "category": "AI Coding Assistant",
+    "tags": ["Python", "JavaScript", "IDE plugin"],
+    "features": ["Fast autocomplete", "ML-powered", "IDE support"]
+  },
+  {
+    "name": "Mutable AI",
+    "description": "Improves your code, writes tests, and explains code instantly.",
+    "website": "https://mutable.ai",
+    "type": "Extension + Web",
+    "pricing": "Freemium",
+    "category": "AI Coding Assistant",
+    "tags": ["refactor", "test writing", "AI coding"],
+    "features": ["Generate docs", "Code explanation", "Refactor large files"]
   }
 ]
+
