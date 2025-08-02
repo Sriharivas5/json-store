@@ -1,13 +1,147 @@
 [
   {
-    "name": "ChatGPT2",
+    "name": "ChatGPT",
     "description": "Helps write messages, emails, and code, and assists with general tasks.",
     "website": "https://google.com",
     "type": "API",
     "pricing": "Freemium",
     "category": "AI Assistant",
     "tags": ["language model", "automation", "chat"],
-    "features": ["Natural language generation", "Multi-turn conversation", "Code assistance"]
+    "features": [
+      "Natural language generation",
+      "Multi-turn conversation",
+      "Code assistance"
+    ]
+  },
+  {
+  "name": "DALL·E",
+  "description": "AI system that creates realistic images and art from text descriptions.",
+  "website": "https://openai.com/dall-e",
+  "type": "Web/API",
+  "pricing": "Freemium",
+  "category": "Image Generation",
+  "tags": ["art", "photorealistic", "openai"],
+  "features": ["Text-to-image", "Image variations", "Inpainting edits"]
+},
+  {
+    "name": "Bard",
+    "description": "Google's conversational AI that helps with information and tasks.",
+    "website": "https://bard.google.com",
+    "type": "Web/App",
+    "pricing": "Free",
+    "category": "AI Assistant",
+    "tags": ["google", "search", "conversational"],
+    "features": ["Real-time information", "Multimodal capabilities", "Google integration"]
+  },
+  {
+    "name": "Claude",
+    "description": "AI assistant focused on safety and constitutional AI principles.",
+    "website": "https://claude.ai",
+    "type": "Web/API",
+    "pricing": "Freemium",
+    "category": "AI Assistant",
+    "tags": ["chatbot", "safety", "enterprise"],
+    "features": ["100K context window", "File processing", "Harm avoidance"]
+  },
+  {
+    "name": "DeepSeek",
+    "description": "Advanced AI assistant with deep learning capabilities for comprehensive task assistance.",
+    "website": "https://deepseek.com",
+    "type": "Web/API",
+    "pricing": "Freemium",
+    "category": "AI Assistant",
+    "tags": ["research", "coding", "analysis"],
+    "features": [
+      "Long-context understanding",
+      "Code generation",
+      "Technical research"
+    ]
+  },
+  {
+    "name": "Mistral AI",
+    "description": "Open-weight AI models for developers and enterprises.",
+    "website": "https://mistral.ai",
+    "type": "API",
+    "pricing": "Freemium",
+    "category": "AI Development",
+    "tags": ["open-source", "LLM", "coding"],
+    "features": ["Mixture of Experts", "Self-hostable", "Multilingual"]
+  },
+  {
+    "name": "Midjourney",
+    "description": "AI image generation via Discord with artistic styles.",
+    "website": "https://midjourney.com",
+    "type": "Discord Bot",
+    "pricing": "Paid",
+    "category": "Image Generation",
+    "tags": ["art", "design", "creative"],
+    "features": [
+      "Style customization",
+      "High-resolution output",
+      "Community gallery"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "description": "Enterprise-focused AI language models for businesses.",
+    "website": "https://cohere.com",
+    "type": "API",
+    "pricing": "Paid",
+    "category": "Text Generation",
+    "tags": ["enterprise", "embeddings", "RAG"],
+    "features": [
+      "Document summarization",
+      "Semantic search",
+      "Multilingual support"
+    ]
+  },
+  {
+    "name": "Stability AI",
+    "description": "Open-source AI tools for image, audio, and video generation.",
+    "website": "https://stability.ai",
+    "type": "Web/API",
+    "pricing": "Freemium",
+    "category": "Image Generation",
+    "tags": ["open-source", "diffusion", "creative"],
+    "features": ["Text-to-image", "Model fine-tuning", "Commercial use"]
+  },
+  {
+    "name": "Grok",
+    "description": "X's AI assistant with real-time knowledge access and rebellious personality.",
+    "website": "https://x.ai",
+    "type": "Web/App",
+    "pricing": "Premium",
+    "category": "AI Assistant",
+    "tags": ["real-time", "sarcastic", "news"],
+    "features": [
+      "Current events awareness",
+      "Unfiltered responses",
+      "X platform integration"
+    ]
+  },
+  {
+    "name": "Copilot",
+    "description": "Microsoft's AI assistant integrated across Windows and Office products.",
+    "website": "https://copilot.microsoft.com",
+    "type": "Web/App",
+    "pricing": "Freemium",
+    "category": "AI Assistant",
+    "tags": ["productivity", "office", "windows"],
+    "features": ["Document assistance", "OS integration", "Task automation"]
+  },
+  {
+    "name": "Gemini",
+    "description": "Google's conversational AI assistant with deep integration to Google services.",
+    "website": "https://gemini.google.com",
+    "type": "Web/App",
+    "pricing": "Free",
+    "category": "AI Assistant",
+    "tags": ["google", "search", "multimodal"],
+    "features": [
+      "Google Workspace integration",
+      "Image understanding",
+      "Real-time information"
+    ]
   },
   {
     "name": "Copy.ai",
@@ -17,7 +151,11 @@
     "pricing": "Freemium",
     "category": "Text Generation",
     "tags": ["copywriting", "marketing", "automation"],
-    "features": ["Blog post generator", "Product description writer", "Social media content assistant"]
+    "features": [
+      "Blog post generator",
+      "Product description writer",
+      "Social media content assistant"
+    ]
   },
   {
     "name": "Jasper",
@@ -117,7 +255,11 @@
     "pricing": "Freemium",
     "category": "Text Generation",
     "tags": ["blog", "essay", "writing"],
-    "features": ["Prompt-based writing", "Essay formatting", "Creative assistant"]
+    "features": [
+      "Prompt-based writing",
+      "Essay formatting",
+      "Creative assistant"
+    ]
   },
   {
     "name": "Tome",
@@ -717,7 +859,11 @@
     "pricing": "Free",
     "category": "AI Coding Assistant",
     "tags": ["autocomplete", "IDE", "programming"],
-    "features": ["Multilanguage support", "Fast suggestions", "Context awareness"]
+    "features": [
+      "Multilanguage support",
+      "Fast suggestions",
+      "Context awareness"
+    ]
   },
   {
     "name": "CodeWhisperer",
