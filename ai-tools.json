@@ -298,5 +298,26 @@
     "category": "Video Editing",
     "tags": ["social", "repurpose"],
     "features": ["Clip highlights", "Captions"]
+  },
+  {
+    "name": "Gamma",
+    "description": "AI-powered presentation and document creator that transforms ideas into beautiful, interactive decks without design skills.",
+    "website": "https://gamma.app",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Presentation",
+    "tags": ["slides", "interactive", "design-free"],
+    "features": ["Auto formatting", "Embeddable content", "Collaboration"]
+  },
+  {
+    "name": "Perplexity AI",
+    "description": "AI-powered search and answer engine that provides cited responses from reliable sources in real time.",
+    "website": "https://www.perplexity.ai",
+    "type": "Web + API",
+    "pricing": "Free + Paid",
+    "category": "Search",
+    "tags": ["real-time", "citation", "knowledge"],
+    "features": ["Source citations", "Follow-up questions", "Web access"]
   }
+
 ]
