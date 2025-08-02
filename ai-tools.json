@@ -1,13 +1,13 @@
 [
   {
-    "name": "chatgpt2",
-    "description": "Helps write messages, emails, and code just by typing a prompt.",
+    "name": "ChatGPT2",
+    "description": "Helps write messages, emails, and code, and assists with general tasks.",
     "website": "https://google.com",
     "type": "API",
     "pricing": "Freemium",
-    "category": "Text Generation",
-    "tags": ["language model", "AI", "automation"],
-    "features": ["Natural language generation", "Multi-turn conversation", "Context awareness"]
+    "category": "AI Assistant",
+    "tags": ["language model", "automation", "chat"],
+    "features": ["Natural language generation", "Multi-turn conversation", "Code assistance"]
   },
   {
     "name": "Copy.ai",
@@ -25,7 +25,7 @@
     "website": "https://www.jasper.ai",
     "type": "Web",
     "pricing": "Paid",
-    "category": "Content Creation",
+    "category": "Text Generation",
     "tags": ["marketing", "copywriting", "business"],
     "features": ["Templates", "SEO mode", "Team collaboration"]
   },
@@ -55,7 +55,7 @@
     "website": "https://runwayml.com",
     "type": "Web + API",
     "pricing": "Freemium",
-    "category": "Video Editing",
+    "category": "Video Tools",
     "tags": ["video", "design", "creative AI"],
     "features": ["Inpainting", "Green screen", "Gen-2 AI video generation"]
   },
@@ -65,7 +65,7 @@
     "website": "https://grammarly.com",
     "type": "Browser Extension",
     "pricing": "Freemium",
-    "category": "Productivity",
+    "category": "Writing Assistant",
     "tags": ["writing", "correction", "grammar"],
     "features": ["Grammar check", "Tone suggestions", "Plagiarism detection"]
   },
@@ -85,7 +85,7 @@
     "website": "https://www.perplexity.ai",
     "type": "Web + API",
     "pricing": "Free",
-    "category": "Search",
+    "category": "Search Engine",
     "tags": ["search", "real-time", "citation"],
     "features": ["Cited answers", "Web access", "Follow-up questioning"]
   },
@@ -115,7 +115,7 @@
     "website": "https://magickpen.com",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Writing",
+    "category": "Text Generation",
     "tags": ["blog", "essay", "writing"],
     "features": ["Prompt-based writing", "Essay formatting", "Creative assistant"]
   },
@@ -145,7 +145,7 @@
     "website": "https://chatpdf.com",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Education",
+    "category": "Document AI",
     "tags": ["pdf", "question answering", "summarization"],
     "features": ["Ask questions", "Highlight text", "PDF summaries"]
   },
@@ -155,7 +155,7 @@
     "website": "https://replika.com",
     "type": "App",
     "pricing": "Freemium",
-    "category": "Chatbot",
+    "category": "AI Companion",
     "tags": ["companion", "mental health", "chat"],
     "features": ["Emotional conversations", "Memory", "3D avatar"]
   },
@@ -205,7 +205,7 @@
     "website": "https://shortlyai.com",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Writing",
+    "category": "Text Generation",
     "tags": ["blog", "story", "assistant"],
     "features": ["Continue writing", "Rephrase", "Expand ideas"]
   },
@@ -215,7 +215,7 @@
     "website": "https://openai.com/research/whisper",
     "type": "API + Open Source",
     "pricing": "Free",
-    "category": "Transcription",
+    "category": "Speech to Text",
     "tags": ["audio", "speech", "convert"],
     "features": ["Multi-language support", "Accurate transcriptions"]
   },
@@ -225,7 +225,7 @@
     "website": "https://www.beatoven.ai",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Audio Generation",
+    "category": "Music Generation",
     "tags": ["music", "soundtrack", "video"],
     "features": ["Genre selection", "Mood-based", "Downloadable tracks"]
   },
@@ -235,7 +235,7 @@
     "website": "https://compose.ai",
     "type": "Browser Extension",
     "pricing": "Freemium",
-    "category": "Writing",
+    "category": "Writing Assistant",
     "tags": ["email", "typing", "productivity"],
     "features": ["Auto-complete", "Rewrite", "Smart templates"]
   },
@@ -275,7 +275,7 @@
     "website": "https://www.aiva.ai",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Audio Generation",
+    "category": "Music Generation",
     "tags": ["composer", "soundtrack", "AI music"],
     "features": ["Genre presets", "Sheet music", "Editable scores"]
   },
@@ -325,7 +325,7 @@
     "website": "https://www.sudowrite.com",
     "type": "Web",
     "pricing": "Paid",
-    "category": "Writing",
+    "category": "Creative Writing",
     "tags": ["story", "creative", "novel"],
     "features": ["Plot twists", "Character help", "Descriptions"]
   },
@@ -355,7 +355,7 @@
     "website": "https://www.descript.com",
     "type": "App",
     "pricing": "Freemium",
-    "category": "Video Editing",
+    "category": "Video Tools",
     "tags": ["audio", "video", "transcription"],
     "features": ["Overdub", "Screen recording", "Text-based editing"]
   },
@@ -365,49 +365,9 @@
     "website": "https://quillbot.com",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Writing",
+    "category": "Writing Assistant",
     "tags": ["paraphrasing", "grammar", "education"],
     "features": ["Grammar check", "Summarizer", "Citation generator"]
-  },
-  {
-    "name": "Replika",
-    "description": "An AI chatbot that talks to you like a virtual friend.",
-    "website": "https://replika.com",
-    "type": "App",
-    "pricing": "Freemium",
-    "category": "Chatbot",
-    "tags": ["companion", "mental health", "AI friend"],
-    "features": ["Emotional chat", "Voice call", "3D avatars"]
-  },
-  {
-    "name": "Gamma",
-    "description": "Create modern slide decks and presentations with AI.",
-    "website": "https://gamma.app",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Presentation",
-    "tags": ["slides", "design", "storytelling"],
-    "features": ["Slide design", "AI drafting", "Interactive elements"]
-  },
-  {
-    "name": "Kaiber",
-    "description": "Generate videos from text prompts or still images.",
-    "website": "https://kaiber.ai",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Video Generation",
-    "tags": ["animation", "creative", "motion"],
-    "features": ["Prompt-to-video", "Music visuals", "Style filters"]
-  },
-  {
-    "name": "PlayHT",
-    "description": "Converts text into realistic voiceovers.",
-    "website": "https://play.ht",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Audio Generation",
-    "tags": ["text-to-speech", "narration", "voiceover"],
-    "features": ["Voice cloning", "Multiple accents", "Export audio"]
   },
   {
     "name": "Scispace",
@@ -415,7 +375,7 @@
     "website": "https://scispace.com",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Education",
+    "category": "Research",
     "tags": ["research", "academic", "summarizer"],
     "features": ["Explain paper", "Highlight definitions", "PDF reader"]
   },
@@ -470,22 +430,12 @@
     "features": ["AI enhance", "Background remover", "One-click retouch"]
   },
   {
-    "name": "Opus Clip",
-    "description": "Turn long videos into viral short clips.",
-    "website": "https://www.opus.pro",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Video Editing",
-    "tags": ["shorts", "clips", "video marketing"],
-    "features": ["Clip highlights", "Auto captions", "Resize formats"]
-  },
-  {
     "name": "ElevenLabs",
     "description": "Create lifelike voiceovers with custom voices.",
     "website": "https://www.elevenlabs.io",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Audio Generation",
+    "category": "Text to Speech",
     "tags": ["voice AI", "realistic", "cloning"],
     "features": ["Voice cloning", "Emotional tone", "Multi-language"]
   },
@@ -515,7 +465,7 @@
     "website": "https://askyourpdf.com",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Education",
+    "category": "Document AI",
     "tags": ["PDF", "questions", "chatbot"],
     "features": ["Query documents", "Highlight search", "Summarization"]
   },
@@ -530,16 +480,6 @@
     "features": ["Script input", "Stock footage", "Text overlays"]
   },
   {
-    "name": "AIVA",
-    "description": "Compose original music for videos or games.",
-    "website": "https://www.aiva.ai",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Music Generation",
-    "tags": ["music", "composition", "instrumental"],
-    "features": ["Mood setting", "Genre presets", "Download MIDI"]
-  },
-  {
     "name": "FormX",
     "description": "Extract structured data from receipts and forms.",
     "website": "https://formx.ai",
@@ -550,44 +490,14 @@
     "features": ["Receipt scanning", "Form parser", "Template builder"]
   },
   {
-    "name": "Notion AI",
-    "description": "Helps write, summarize, and brainstorm ideas in Notion.",
-    "website": "https://www.notion.so/product/ai",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Productivity",
-    "tags": ["notes", "writing", "docs"],
-    "features": ["Auto writing", "Task assistant", "Summarizer"]
-  },
-  {
-    "name": "ChatPDF",
-    "description": "Lets you ask questions and get answers from any PDF.",
-    "website": "https://www.chatpdf.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Education",
-    "tags": ["PDF", "chatbot", "documents"],
-    "features": ["PDF chat", "Summary", "Reference support"]
-  },
-  {
     "name": "Kuki AI",
     "description": "A chatbot that talks like a virtual character.",
     "website": "https://www.kuki.ai",
     "type": "Web",
     "pricing": "Free",
-    "category": "Chatbot",
+    "category": "AI Companion",
     "tags": ["fun", "AI friend", "conversation"],
     "features": ["Real-time chat", "Games", "Character personality"]
-  },
-  {
-    "name": "Runway ML",
-    "description": "Offers smart tools for video and image editing.",
-    "website": "https://runwayml.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Image Editing",
-    "tags": ["editing", "removal", "enhance"],
-    "features": ["Background removal", "Inpainting", "Video editing"]
   },
   {
     "name": "Veed.io",
@@ -600,22 +510,12 @@
     "features": ["Auto subtitles", "Trimmer", "Filters"]
   },
   {
-    "name": "Tome",
-    "description": "Creates slide decks and storytelling visuals with AI.",
-    "website": "https://tome.app",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Presentation",
-    "tags": ["slides", "pitch", "storytelling"],
-    "features": ["AI-generated slides", "Image support", "Live preview"]
-  },
-  {
     "name": "Talk to Books",
     "description": "Ask questions and get answers from real books.",
     "website": "https://books.google.com/talktobooks",
     "type": "Web",
     "pricing": "Free",
-    "category": "Education",
+    "category": "Research",
     "tags": ["books", "reading", "explore"],
     "features": ["Semantic search", "Paragraph results", "No login"]
   },
@@ -640,26 +540,6 @@
     "features": ["Background remover", "Relight", "Object eraser"]
   },
   {
-    "name": "Cleanup.pictures",
-    "description": "Remove unwanted parts from any photo.",
-    "website": "https://cleanup.pictures",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Image Editing",
-    "tags": ["photo", "object removal", "clean"],
-    "features": ["Inpainting", "Object erase", "Enhance image"]
-  },
-  {
-    "name": "Shortly AI",
-    "description": "Helps write articles and stories with AI.",
-    "website": "https://www.shortlyai.com",
-    "type": "Web",
-    "pricing": "Paid",
-    "category": "Writing",
-    "tags": ["writing", "creative", "blog"],
-    "features": ["Write more button", "Story builder", "Custom prompts"]
-  },
-  {
     "name": "Aiportraits",
     "description": "Turn your selfies into painted-style portraits.",
     "website": "https://aiportraits.com",
@@ -668,16 +548,6 @@
     "category": "Image Generation",
     "tags": ["art", "portrait", "selfie"],
     "features": ["Style transfer", "Portrait rendering", "Simple upload"]
-  },
-  {
-    "name": "Voicemod",
-    "description": "Change your voice in real-time during calls or games.",
-    "website": "https://www.voicemod.net",
-    "type": "App",
-    "pricing": "Freemium",
-    "category": "Audio Editing",
-    "tags": ["voice", "fun", "filter"],
-    "features": ["Voice changer", "Soundboard", "Live effects"]
   },
   {
     "name": "Postwise",
@@ -695,7 +565,7 @@
     "website": "https://copymonkey.ai",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "Marketing",
+    "category": "E-commerce",
     "tags": ["ecommerce", "amazon", "copy"],
     "features": ["Keyword focus", "ASIN analysis", "Content generator"]
   },
@@ -715,19 +585,9 @@
     "website": "https://prompthero.com",
     "type": "Web",
     "pricing": "Free",
-    "category": "Prompt Library",
+    "category": "Developer Tools",
     "tags": ["prompt", "search", "image"],
     "features": ["Prompt search", "Model filter", "Prompt examples"]
-  },
-  {
-    "name": "MagickPen",
-    "description": "Write emails, blogs, and code using an AI writer.",
-    "website": "https://magickpen.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Writing",
-    "tags": ["blog", "writing", "AI tool"],
-    "features": ["Email writer", "Poem generator", "Quick summaries"]
   },
   {
     "name": "Tabnine",
@@ -735,207 +595,7 @@
     "website": "https://www.tabnine.com",
     "type": "Extension",
     "pricing": "Freemium",
-    "category": "Coding",
-    "tags": ["developer", "IDE", "autocomplete"],
-    "features": ["Code suggestions", "Multi-language", "Contextual help"]
-  },
-  {
-    "name": "AI Dungeon",
-    "description": "Play text adventure games that evolve with your choices.",
-    "website": "https://play.aidungeon.io",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Entertainment",
-    "tags": ["game", "text", "adventure"],
-    "features": ["Story creation", "Role-play", "Multiplayer mode"]
-  },
-  {
-    "name": "Notion AI",
-    "description": "Helps write, summarize, and brainstorm ideas in Notion.",
-    "website": "https://www.notion.so/product/ai",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Productivity",
-    "tags": ["notes", "writing", "docs"],
-    "features": ["Auto writing", "Task assistant", "Summarizer"]
-  },
-  {
-    "name": "ChatPDF",
-    "description": "Lets you ask questions and get answers from any PDF.",
-    "website": "https://www.chatpdf.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Education",
-    "tags": ["PDF", "chatbot", "documents"],
-    "features": ["PDF chat", "Summary", "Reference support"]
-  },
-  {
-    "name": "Kuki AI",
-    "description": "A chatbot that talks like a virtual character.",
-    "website": "https://www.kuki.ai",
-    "type": "Web",
-    "pricing": "Free",
-    "category": "Chatbot",
-    "tags": ["fun", "AI friend", "conversation"],
-    "features": ["Real-time chat", "Games", "Character personality"]
-  },
-  {
-    "name": "Runway ML",
-    "description": "Offers smart tools for video and image editing.",
-    "website": "https://runwayml.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Video Editing",
-    "tags": ["editing", "removal", "enhance"],
-    "features": ["Background removal", "Inpainting", "Video editing"]
-  },
-  {
-    "name": "Veed.io",
-    "description": "Edit and caption videos online easily.",
-    "website": "https://www.veed.io",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Video Editing",
-    "tags": ["video", "editor", "caption"],
-    "features": ["Auto subtitles", "Trimmer", "Filters"]
-  },
-  {
-    "name": "Tome",
-    "description": "Creates slide decks and storytelling visuals with AI.",
-    "website": "https://tome.app",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Presentation",
-    "tags": ["slides", "pitch", "storytelling"],
-    "features": ["AI-generated slides", "Image support", "Live preview"]
-  },
-  {
-    "name": "Talk to Books",
-    "description": "Ask questions and get answers from real books.",
-    "website": "https://books.google.com/talktobooks",
-    "type": "Web",
-    "pricing": "Free",
-    "category": "Education",
-    "tags": ["books", "reading", "explore"],
-    "features": ["Semantic search", "Paragraph results", "No login"]
-  },
-  {
-    "name": "Pixlr",
-    "description": "Edit images and remove backgrounds online.",
-    "website": "https://pixlr.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Image Editing",
-    "tags": ["photo", "editing", "online"],
-    "features": ["AI background removal", "Filters", "Crop tools"]
-  },
-  {
-    "name": "ClipDrop",
-    "description": "Removes backgrounds, enhances and replaces elements.",
-    "website": "https://clipdrop.co",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Image Editing",
-    "tags": ["image", "photo", "remove"],
-    "features": ["Background remover", "Relight", "Object eraser"]
-  },
-  {
-    "name": "Cleanup.pictures",
-    "description": "Remove unwanted parts from any photo.",
-    "website": "https://cleanup.pictures",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Image Editing",
-    "tags": ["photo", "object removal", "clean"],
-    "features": ["Inpainting", "Object erase", "Enhance image"]
-  },
-  {
-    "name": "Shortly AI",
-    "description": "Helps write articles and stories with AI.",
-    "website": "https://www.shortlyai.com",
-    "type": "Web",
-    "pricing": "Paid",
-    "category": "Writing",
-    "tags": ["writing", "creative", "blog"],
-    "features": ["Write more button", "Story builder", "Custom prompts"]
-  },
-  {
-    "name": "Aiportraits",
-    "description": "Turn your selfies into painted-style portraits.",
-    "website": "https://aiportraits.com",
-    "type": "Web",
-    "pricing": "Free",
-    "category": "Image Generation",
-    "tags": ["art", "portrait", "selfie"],
-    "features": ["Style transfer", "Portrait rendering", "Simple upload"]
-  },
-  {
-    "name": "Voicemod",
-    "description": "Change your voice in real-time during calls or games.",
-    "website": "https://www.voicemod.net",
-    "type": "App",
-    "pricing": "Freemium",
-    "category": "Audio Editing",
-    "tags": ["voice", "fun", "filter"],
-    "features": ["Voice changer", "Soundboard", "Live effects"]
-  },
-  {
-    "name": "Postwise",
-    "description": "Writes and schedules tweets using AI.",
-    "website": "https://www.postwise.ai",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Social Media",
-    "tags": ["twitter", "content", "scheduling"],
-    "features": ["Tweet writer", "Scheduler", "Analytics"]
-  },
-  {
-    "name": "CopyMonkey",
-    "description": "Generates Amazon product descriptions that rank better.",
-    "website": "https://copymonkey.ai",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Marketing",
-    "tags": ["ecommerce", "amazon", "copy"],
-    "features": ["Keyword focus", "ASIN analysis", "Content generator"]
-  },
-  {
-    "name": "Harpa AI",
-    "description": "ChatGPT-powered Chrome extension that automates tasks.",
-    "website": "https://harpa.ai",
-    "type": "Extension",
-    "pricing": "Freemium",
-    "category": "Productivity",
-    "tags": ["automation", "browser", "search"],
-    "features": ["Web summarizer", "SEO tool", "Scraper"]
-  },
-  {
-    "name": "PromptHero",
-    "description": "Search and explore prompts for image generation models.",
-    "website": "https://prompthero.com",
-    "type": "Web",
-    "pricing": "Free",
-    "category": "Prompt Library",
-    "tags": ["prompt", "search", "image"],
-    "features": ["Prompt search", "Model filter", "Prompt examples"]
-  },
-  {
-    "name": "MagickPen",
-    "description": "Write emails, blogs, and code using an AI writer.",
-    "website": "https://magickpen.com",
-    "type": "Web",
-    "pricing": "Freemium",
-    "category": "Writing",
-    "tags": ["blog", "writing", "AI tool"],
-    "features": ["Email writer", "Poem generator", "Quick summaries"]
-  },
-  {
-    "name": "Tabnine",
-    "description": "AI assistant for code completion in real-time.",
-    "website": "https://www.tabnine.com",
-    "type": "Extension",
-    "pricing": "Freemium",
-    "category": "Coding",
+    "category": "AI Coding Assistant",
     "tags": ["developer", "IDE", "autocomplete"],
     "features": ["Code suggestions", "Multi-language", "Contextual help"]
   },
@@ -955,7 +615,7 @@
     "website": "https://lovable.dev",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "No-Code App Builder",
+    "category": "No-Code",
     "tags": ["app builder", "no-code", "vibe coding"],
     "features": ["Text-to-app", "Live editing", "GitHub export"]
   },
@@ -965,7 +625,7 @@
     "website": "https://bolt.new",
     "type": "Web",
     "pricing": "Freemium",
-    "category": "No-Code App Builder",
+    "category": "No-Code",
     "tags": ["frontend", "React", "prototype"],
     "features": ["Prompt-based UI", "GitHub sync", "Live preview"]
   },
@@ -1060,16 +720,6 @@
     "features": ["Multilanguage support", "Fast suggestions", "Context awareness"]
   },
   {
-    "name": "Tabnine",
-    "description": "Gives real-time code suggestions based on your coding style.",
-    "website": "https://tabnine.com",
-    "type": "Extension",
-    "pricing": "Freemium",
-    "category": "AI Coding Assistant",
-    "tags": ["IDE", "autocomplete", "pair programming"],
-    "features": ["Works in IDEs", "Private models", "Custom team training"]
-  },
-  {
     "name": "CodeWhisperer",
     "description": "Amazon’s tool that helps you write code with smart suggestions.",
     "website": "https://aws.amazon.com/codewhisperer/",
@@ -1100,4 +750,3 @@
     "features": ["Generate docs", "Code explanation", "Refactor large files"]
   }
 ]
-
