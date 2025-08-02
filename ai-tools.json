@@ -318,6 +318,36 @@
     "category": "Search",
     "tags": ["real-time", "citation", "knowledge"],
     "features": ["Source citations", "Follow-up questions", "Web access"]
+  },
+  {
+    "name": "Scribe AI",
+    "description": "Scribe AI is an intelligent process documentation tool that records your workflows and automatically generates step-by-step guides with screenshots and annotations. It's especially useful for onboarding, SOP creation, and training purposes, enabling teams to save time and standardize procedures effortlessly.",
+    "website": "https://scribehow.com",
+    "type": "Browser Extension + Web",
+    "pricing": "Free + Paid",
+    "category": "Productivity",
+    "tags": ["documentation", "workflow", "training"],
+    "features": [
+      "Auto-generated step-by-step guides",
+      "Custom branding",
+      "Team collaboration",
+      "Workflow editing and sharing"
+    ]
+  },
+  {
+    "name": "Genmo AI",
+    "description": "Genmo AI is an innovative generative media tool that allows users to create dynamic videos and interactive 3D animations from simple text prompts. It blends creativity with AI by turning imagination into visually engaging content, making it ideal for storytellers, marketers, and educators.",
+    "website": "https://genmo.ai",
+    "type": "Web",
+    "pricing": "Free + Paid",
+    "category": "Video Generation",
+    "tags": ["3D", "animation", "creativity"],
+    "features": [
+      "Text to animated video",
+      "3D object generation",
+      "Prompt-based interface",
+      "Interactive storytelling"
+    ]
   }
 
 ]
