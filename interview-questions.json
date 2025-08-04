@@ -1,5 +1,4 @@
 [
-  // ------------------ HR QUESTIONS ------------------
   {
     "question": "Tell me about yourself.",
     "answer": "I am a recent Computer Science graduate with a passion for problem-solving and software development. I have worked on several web-based projects and I am eager to contribute to real-world applications.",
@@ -79,7 +78,6 @@
     ]
   },
 
-  // ------------------ LOGICAL QUESTIONS ------------------
   {
     "question": "What is an Array?",
     "answer": "An array is a data structure used to store a collection of elements (values or variables), typically of the same data type, in a single variable.",
@@ -167,7 +165,6 @@
     ]
   },
 
-  // ------------------ TECHNICAL QUESTIONS ------------------
   {
     "question": "What is an Object?",
     "answer": "An object is a collection of properties and methods. In JavaScript, objects store keyed collections of various data and more complex entities.",
