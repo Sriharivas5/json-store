@@ -12,19 +12,19 @@
       }
     ]
   },
-{
-"question": "What is an Object?",
-"answer": "Object is collection of same data type values",
-"category": "logical",
-"difficulty": "simple",
-"answers": [
   {
-"content": "array is collection of **data**",
-"language": "",
-"code": null
-}
-]
-},
+    "question": "What is an Object?",
+    "answer": "Object is collection of same data type values",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "array is collection of **data**",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
   {
     "question": "Write a code for **Palindrome** ?",
     "answer": null,
@@ -72,6 +72,30 @@
         "content": "Hi there",
         "language": "",
         "code": null
+      }
+    ]
+  },
+  {
+    "question": "Write a code to check if a number is Prime",
+    "answer": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+    "category": "technical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "// JavaScript code to check if a number is prime",
+        "language": "",
+        "code": {
+          "content": "function isPrime(num) {\n  if (num <= 1) return false;\n  for (let i = 2; i <= Math.sqrt(num); i++) {\n    if (num % i === 0) return false;\n  }\n  return true;\n}\nconst number = 29;\nconsole.log(`${number} is ${isPrime(number) ? 'a prime' : 'not a prime'} number.`);",
+          "language": "javascript"
+        }
+      },
+      {
+        "content": "# Python code to check if a number is prime",
+        "language": "",
+        "code": {
+          "content": "def is_prime(num):\n    if num <= 1:\n        return False\n    for i in range(2, int(num ** 0.5) + 1):\n        if num % i == 0:\n            return False\n    return True\n\nnumber = 29\nprint(f\"{number} is {'a prime' if is_prime(number) else 'not a prime'} number.\")",
+          "language": "python"
+        }
       }
     ]
   }
