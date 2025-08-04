@@ -1,101 +1,252 @@
 [
+  // ------------------ HR QUESTIONS ------------------
   {
-    "question": "What is an Array?",
-    "answer": "Array is collection of same data type values",
-    "category": "logical",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "array is collection of **data**",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "What is an Object?",
-    "answer": "Object is collection of same data type values",
-    "category": "logical",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "array is collection of **data**",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "Write a code for **Palindrome** ?",
-    "answer": null,
-    "category": "logical",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "// program to check if the string is palindrome or not",
-        "language": "",
-        "code": {
-          "content": "function checkPalindrome(string) {\n  const len = string.length;\n  for (let i = 0; i < len / 2; i++) {\n    if (string[i] !== string[len - 1 - i]) {\n      return 'It is not a palindrome';\n    }\n  }\n  return 'It is a palindrome';\n}\nconst string = prompt('Enter a string: ');\nconst value = checkPalindrome(string);\nconsole.log(value);",
-          "language": "javascript"
-        }
-      },
-      {
-        "content": "python",
-        "language": "",
-        "code": {
-          "content": "# Program to check if a string is palindrome or not\nmy_str = 'aIbohPhoBiA'\nmy_str = my_str.casefold()\nrev_str = reversed(my_str)\nif list(my_str) == list(rev_str):\n    print(\"The string is a palindrome.\")\nelse:\n    print(\"The string is not a palindrome.\")",
-          "language": "python"
-        }
-      }
-    ]
-  },
-  {
-    "question": "what is an object",
-    "answer": "object is an object",
-    "category": "technical",
-    "difficulty": "hard",
-    "answers": [
-      {
-        "content": "object is an object",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "tell me about yourself",
-    "answer": "Hi there",
+    "question": "Tell me about yourself.",
+    "answer": "I am a recent Computer Science graduate with a passion for problem-solving and software development. I have worked on several web-based projects and I am eager to contribute to real-world applications.",
     "category": "hr",
     "difficulty": "simple",
     "answers": [
       {
-        "content": "Hi there",
+        "content": "I recently completed my B.Tech in Computer Science. I'm detail-oriented, love building clean and efficient solutions, and I'm excited to begin my professional journey with your team.",
         "language": "",
         "code": null
       }
     ]
   },
   {
-    "question": "Write a code to check if a number is Prime",
-    "answer": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+    "question": "What are your strengths?",
+    "answer": "I’m a quick learner, adapt easily to new environments, and stay calm under pressure. I also communicate clearly and enjoy collaborating with teams.",
+    "category": "hr",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "I'm naturally curious and self-motivated. I enjoy taking ownership of tasks and seeing them through with responsibility and dedication.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Why should we hire you?",
+    "answer": "Because I bring a mix of technical knowledge, enthusiasm to learn, and a strong commitment to delivering quality work. I am ready to grow with the organization.",
+    "category": "hr",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "I understand the challenges of a fresher, and I’m fully prepared to handle them. I bring fresh perspective, energy, and a serious willingness to contribute.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Where do you see yourself in 5 years?",
+    "answer": "In five years, I see myself as a reliable and skilled professional who has contributed meaningfully to projects, mentored juniors, and grown technically and personally.",
+    "category": "hr",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "I aim to evolve into a full-stack developer with strong problem-solving skills and maybe lead a small team or a product module.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Tell me about a challenge you faced and how you overcame it.",
+    "answer": "During a college hackathon, my team faced a major issue in API integration. I stayed calm, broke the problem into parts, and quickly debugged the issue by researching and collaborating effectively.",
+    "category": "hr",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "This experience taught me the value of teamwork under pressure and how structured thinking helps even when time is limited.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What if you are rejected today?",
+    "answer": "I’ll be disappointed, but I will reflect on the feedback, improve myself, and come back stronger. Every experience adds value and learning to my journey.",
+    "category": "hr",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "I believe rejection is a redirection. I’ll analyze what I can do better and take this as a motivation to prepare even harder.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+
+  // ------------------ LOGICAL QUESTIONS ------------------
+  {
+    "question": "What is an Array?",
+    "answer": "An array is a data structure used to store a collection of elements (values or variables), typically of the same data type, in a single variable.",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "Example in JavaScript: `const arr = [1, 2, 3];`",
+        "language": "javascript",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What is a String?",
+    "answer": "A string is a sequence of characters used to represent text. It is one of the most used data types in programming.",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "In Python: `my_str = 'Hello, World!'`",
+        "language": "python",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Check if a number is a Palindrome.",
+    "answer": "A palindrome is a number that remains the same when its digits are reversed.",
+    "category": "logical",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "Python code",
+        "language": "python",
+        "code": {
+          "content": "def is_palindrome(num):\n    return str(num) == str(num)[::-1]\nprint(is_palindrome(121))"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Write a function to find the factorial of a number.",
+    "answer": "Factorial is the product of all positive integers less than or equal to n.",
+    "category": "logical",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "JavaScript code",
+        "language": "javascript",
+        "code": {
+          "content": "function factorial(n) {\n  if (n === 0 || n === 1) return 1;\n  return n * factorial(n - 1);\n}\nconsole.log(factorial(5));"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Find the missing number from an array of 1 to N.",
+    "answer": "Use the sum formula `n(n+1)/2` and subtract actual sum.",
+    "category": "logical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "Python code",
+        "language": "python",
+        "code": {
+          "content": "def find_missing(arr, n):\n    return n * (n + 1) // 2 - sum(arr)\nprint(find_missing([1, 2, 3, 5], 5))"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Generate the Fibonacci series up to N terms.",
+    "answer": "Fibonacci series is where each term is the sum of the two preceding ones.",
+    "category": "logical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "Python code",
+        "language": "python",
+        "code": {
+          "content": "def fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        print(a, end=' ')\n        a, b = b, a + b\nfibonacci(10)"
+        }
+      }
+    ]
+  },
+
+  // ------------------ TECHNICAL QUESTIONS ------------------
+  {
+    "question": "What is an Object?",
+    "answer": "An object is a collection of properties and methods. In JavaScript, objects store keyed collections of various data and more complex entities.",
     "category": "technical",
     "difficulty": "simple",
     "answers": [
       {
-        "content": "// JavaScript code to check if a number is prime",
-        "language": "",
-        "code": {
-          "content": "function isPrime(num) {\n  if (num <= 1) return false;\n  for (let i = 2; i <= Math.sqrt(num); i++) {\n    if (num % i === 0) return false;\n  }\n  return true;\n}\nconst number = 29;\nconsole.log(`${number} is ${isPrime(number) ? 'a prime' : 'not a prime'} number.`);",
-          "language": "javascript"
-        }
-      },
+        "content": "const car = { brand: 'Honda', model: 'Civic', start: function() { return 'Started'; } }",
+        "language": "javascript",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What is a Function?",
+    "answer": "A function is a reusable block of code that performs a specific task.",
+    "category": "technical",
+    "difficulty": "simple",
+    "answers": [
       {
-        "content": "# Python code to check if a number is prime",
-        "language": "",
+        "content": "Example in Python:\n```python\ndef greet():\n    print(\"Hello\")\ngreet()\n```",
+        "language": "python",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Check if a number is Prime.",
+    "answer": "Prime numbers are greater than 1 and have no divisors other than 1 and itself.",
+    "category": "technical",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "Python code",
+        "language": "python",
         "code": {
-          "content": "def is_prime(num):\n    if num <= 1:\n        return False\n    for i in range(2, int(num ** 0.5) + 1):\n        if num % i == 0:\n            return False\n    return True\n\nnumber = 29\nprint(f\"{number} is {'a prime' if is_prime(number) else 'not a prime'} number.\")",
-          "language": "python"
+          "content": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5)+1):\n        if n % i == 0:\n            return False\n    return True\nprint(is_prime(11))"
         }
+      }
+    ]
+  },
+  {
+    "question": "Reverse a string in JavaScript.",
+    "answer": "Use `split()`, `reverse()`, and `join()` methods.",
+    "category": "technical",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "JavaScript code",
+        "language": "javascript",
+        "code": {
+          "content": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}\nconsole.log(reverseString('hello'));"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Explain event loop in JavaScript.",
+    "answer": "The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the browser and executing callbacks when the stack is empty.",
+    "category": "technical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "JS is single-threaded. The event loop handles async code via callback queue and microtask queue.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What are closures in JavaScript?",
+    "answer": "Closures are functions that remember variables from their outer scope even after the outer function has returned.",
+    "category": "technical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "function outer() {\n  let count = 0;\n  return function() {\n    return ++count;\n  };\n}\nconst counter = outer();\nconsole.log(counter()); // 1",
+        "language": "javascript",
+        "code": null
       }
     ]
   }
