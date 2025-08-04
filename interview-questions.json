@@ -1,25 +1,12 @@
 [
   {
-    "question": "Tell me about yourself.",
-    "answer": "I am a recent Computer Science graduate with a passion for problem-solving and software development. I have worked on several web-based projects and I am eager to contribute to real-world applications.",
+    "question": "Tell me about yourself",
+    "answer": "I'm a recent graduate in Computer Science with a strong passion for software development and continuous learning.",
     "category": "hr",
     "difficulty": "simple",
     "answers": [
       {
-        "content": "I recently completed my B.Tech in Computer Science. I'm detail-oriented, love building clean and efficient solutions, and I'm excited to begin my professional journey with your team.",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "What are your strengths?",
-    "answer": "I’m a quick learner, adapt easily to new environments, and stay calm under pressure. I also communicate clearly and enjoy collaborating with teams.",
-    "category": "hr",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "I'm naturally curious and self-motivated. I enjoy taking ownership of tasks and seeing them through with responsibility and dedication.",
+        "content": "I'm a recent graduate in Computer Science with a strong passion for software development and continuous learning.",
         "language": "",
         "code": null
       }
@@ -27,12 +14,25 @@
   },
   {
     "question": "Why should we hire you?",
-    "answer": "Because I bring a mix of technical knowledge, enthusiasm to learn, and a strong commitment to delivering quality work. I am ready to grow with the organization.",
+    "answer": "Because I bring a fresh perspective, quick learning ability, and I\u2019m eager to contribute with full dedication.",
+    "category": "hr",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "Because I bring a fresh perspective, quick learning ability, and I\u2019m eager to contribute with full dedication.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What are your strengths and weaknesses?",
+    "answer": "My strength is adaptability and quick learning. My weakness was overcommitting, but I\u2019ve learned to manage my time better.",
     "category": "hr",
     "difficulty": "medium",
     "answers": [
       {
-        "content": "I understand the challenges of a fresher, and I’m fully prepared to handle them. I bring fresh perspective, energy, and a serious willingness to contribute.",
+        "content": "My strength is adaptability and quick learning. My weakness was overcommitting, but I\u2019ve learned to manage my time better.",
         "language": "",
         "code": null
       }
@@ -40,140 +40,52 @@
   },
   {
     "question": "Where do you see yourself in 5 years?",
-    "answer": "In five years, I see myself as a reliable and skilled professional who has contributed meaningfully to projects, mentored juniors, and grown technically and personally.",
+    "answer": "I see myself leading impactful projects and growing into a leadership or specialist role, continuously learning and contributing.",
     "category": "hr",
     "difficulty": "medium",
     "answers": [
       {
-        "content": "I aim to evolve into a full-stack developer with strong problem-solving skills and maybe lead a small team or a product module.",
+        "content": "I see myself leading impactful projects and growing into a leadership or specialist role, continuously learning and contributing.",
         "language": "",
         "code": null
       }
     ]
   },
   {
-    "question": "Tell me about a challenge you faced and how you overcame it.",
-    "answer": "During a college hackathon, my team faced a major issue in API integration. I stayed calm, broke the problem into parts, and quickly debugged the issue by researching and collaborating effectively.",
+    "question": "Tell me about a time you failed and how you handled it.",
+    "answer": "During a group project, I miscommunicated a critical deadline. I took responsibility, worked overtime, and ensured we delivered on time.",
     "category": "hr",
     "difficulty": "hard",
     "answers": [
       {
-        "content": "This experience taught me the value of teamwork under pressure and how structured thinking helps even when time is limited.",
+        "content": "During a group project, I miscommunicated a critical deadline. I took responsibility, worked overtime, and ensured we delivered on time.",
         "language": "",
         "code": null
       }
     ]
   },
   {
-    "question": "What if you are rejected today?",
-    "answer": "I’ll be disappointed, but I will reflect on the feedback, improve myself, and come back stronger. Every experience adds value and learning to my journey.",
+    "question": "How do you handle conflict in a team?",
+    "answer": "By understanding all perspectives, remaining calm, and guiding the team toward a collaborative resolution.",
     "category": "hr",
     "difficulty": "hard",
     "answers": [
       {
-        "content": "I believe rejection is a redirection. I’ll analyze what I can do better and take this as a motivation to prepare even harder.",
+        "content": "By understanding all perspectives, remaining calm, and guiding the team toward a collaborative resolution.",
         "language": "",
         "code": null
       }
     ]
   },
-
   {
     "question": "What is an Array?",
-    "answer": "An array is a data structure used to store a collection of elements (values or variables), typically of the same data type, in a single variable.",
-    "category": "logical",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "Example in JavaScript: `const arr = [1, 2, 3];`",
-        "language": "javascript",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "What is a String?",
-    "answer": "A string is a sequence of characters used to represent text. It is one of the most used data types in programming.",
-    "category": "logical",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "In Python: `my_str = 'Hello, World!'`",
-        "language": "python",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "Check if a number is a Palindrome.",
-    "answer": "A palindrome is a number that remains the same when its digits are reversed.",
-    "category": "logical",
-    "difficulty": "medium",
-    "answers": [
-      {
-        "content": "Python code",
-        "language": "python",
-        "code": {
-          "content": "def is_palindrome(num):\n    return str(num) == str(num)[::-1]\nprint(is_palindrome(121))"
-        }
-      }
-    ]
-  },
-  {
-    "question": "Write a function to find the factorial of a number.",
-    "answer": "Factorial is the product of all positive integers less than or equal to n.",
-    "category": "logical",
-    "difficulty": "medium",
-    "answers": [
-      {
-        "content": "JavaScript code",
-        "language": "javascript",
-        "code": {
-          "content": "function factorial(n) {\n  if (n === 0 || n === 1) return 1;\n  return n * factorial(n - 1);\n}\nconsole.log(factorial(5));"
-        }
-      }
-    ]
-  },
-  {
-    "question": "Find the missing number from an array of 1 to N.",
-    "answer": "Use the sum formula `n(n+1)/2` and subtract actual sum.",
-    "category": "logical",
-    "difficulty": "hard",
-    "answers": [
-      {
-        "content": "Python code",
-        "language": "python",
-        "code": {
-          "content": "def find_missing(arr, n):\n    return n * (n + 1) // 2 - sum(arr)\nprint(find_missing([1, 2, 3, 5], 5))"
-        }
-      }
-    ]
-  },
-  {
-    "question": "Generate the Fibonacci series up to N terms.",
-    "answer": "Fibonacci series is where each term is the sum of the two preceding ones.",
-    "category": "logical",
-    "difficulty": "hard",
-    "answers": [
-      {
-        "content": "Python code",
-        "language": "python",
-        "code": {
-          "content": "def fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        print(a, end=' ')\n        a, b = b, a + b\nfibonacci(10)"
-        }
-      }
-    ]
-  },
-
-  {
-    "question": "What is an Object?",
-    "answer": "An object is a collection of properties and methods. In JavaScript, objects store keyed collections of various data and more complex entities.",
+    "answer": "An array is a collection of elements stored at contiguous memory locations.",
     "category": "technical",
     "difficulty": "simple",
     "answers": [
       {
-        "content": "const car = { brand: 'Honda', model: 'Civic', start: function() { return 'Started'; } }",
-        "language": "javascript",
+        "content": "An array is a collection of elements stored at contiguous memory locations.",
+        "language": "",
         "code": null
       }
     ]
@@ -185,66 +97,216 @@
     "difficulty": "simple",
     "answers": [
       {
-        "content": "Example in Python:\n```python\ndef greet():\n    print(\"Hello\")\ngreet()\n```",
-        "language": "python",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "Check if a number is Prime.",
-    "answer": "Prime numbers are greater than 1 and have no divisors other than 1 and itself.",
-    "category": "technical",
-    "difficulty": "medium",
-    "answers": [
-      {
-        "content": "Python code",
-        "language": "python",
-        "code": {
-          "content": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5)+1):\n        if n % i == 0:\n            return False\n    return True\nprint(is_prime(11))"
-        }
-      }
-    ]
-  },
-  {
-    "question": "Reverse a string in JavaScript.",
-    "answer": "Use `split()`, `reverse()`, and `join()` methods.",
-    "category": "technical",
-    "difficulty": "medium",
-    "answers": [
-      {
-        "content": "JavaScript code",
-        "language": "javascript",
-        "code": {
-          "content": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}\nconsole.log(reverseString('hello'));"
-        }
-      }
-    ]
-  },
-  {
-    "question": "Explain event loop in JavaScript.",
-    "answer": "The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the browser and executing callbacks when the stack is empty.",
-    "category": "technical",
-    "difficulty": "hard",
-    "answers": [
-      {
-        "content": "JS is single-threaded. The event loop handles async code via callback queue and microtask queue.",
+        "content": "A function is a reusable block of code that performs a specific task.",
         "language": "",
         "code": null
       }
     ]
   },
   {
-    "question": "What are closures in JavaScript?",
-    "answer": "Closures are functions that remember variables from their outer scope even after the outer function has returned.",
+    "question": "What is an Object in programming?",
+    "answer": "An object is an instance of a class containing data and behavior.",
+    "category": "technical",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "An object is an instance of a class containing data and behavior.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What is Inheritance in OOP?",
+    "answer": "Inheritance is a mechanism where one class acquires the properties of another.",
+    "category": "technical",
+    "difficulty": "medium",
+    "answers": [
+      {
+        "content": "Inheritance is a mechanism where one class acquires the properties of another.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "What is a Closure in JavaScript?",
+    "answer": "A closure is a function that remembers its lexical scope even when executed outside of it.",
     "category": "technical",
     "difficulty": "hard",
     "answers": [
       {
-        "content": "function outer() {\n  let count = 0;\n  return function() {\n    return ++count;\n  };\n}\nconst counter = outer();\nconsole.log(counter()); // 1",
-        "language": "javascript",
+        "content": "A closure is a function that remembers its lexical scope even when executed outside of it.",
+        "language": "",
         "code": null
       }
     ]
+  },
+  {
+    "question": "Explain the Event Loop in JavaScript.",
+    "answer": "It's a mechanism that handles asynchronous callbacks in a non-blocking manner.",
+    "category": "technical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "It's a mechanism that handles asynchronous callbacks in a non-blocking manner.",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "Write a code to check Prime Number",
+    "answer": "A number is prime if it has no divisors other than 1 and itself.",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "def is_prime(n):\n if n<=1: return False\n for i in range(2,int(n**0.5)+1):\n  if n%i==0: return False\n return True",
+        "language": "python",
+        "code": {
+          "content": "def is_prime(n):\n if n<=1: return False\n for i in range(2,int(n**0.5)+1):\n  if n%i==0: return False\n return True",
+          "language": "python"
+        }
+      },
+      {
+        "content": "function isPrime(n){if(n<=1)return false;for(let i=2;i<=Math.sqrt(n);i++){if(n%i===0)return false;}return true;}",
+        "language": "javascript",
+        "code": {
+          "content": "function isPrime(n){if(n<=1)return false;for(let i=2;i<=Math.sqrt(n);i++){if(n%i===0)return false;}return true;}",
+          "language": "javascript"
+        }
+      },
+      {
+        "content": "public boolean isPrime(int n){if(n<=1)return false;for(int i=2;i<=Math.sqrt(n);i++){if(n%i==0)return false;}return true;}",
+        "language": "java",
+        "code": {
+          "content": "public boolean isPrime(int n){if(n<=1)return false;for(int i=2;i<=Math.sqrt(n);i++){if(n%i==0)return false;}return true;}",
+          "language": "java"
+        }
+      },
+      {
+        "content": "bool isPrime(int n){if(n<=1)return false;for(int i=2;i*i<=n;i++){if(n%i==0)return false;}return true;}",
+        "language": "c++",
+        "code": {
+          "content": "bool isPrime(int n){if(n<=1)return false;for(int i=2;i*i<=n;i++){if(n%i==0)return false;}return true;}",
+          "language": "c++"
+        }
+      },
+      {
+        "content": "bool IsPrime(int n){if(n<=1)return false;for(int i=2;i*i<=n;i++){if(n%i==0)return false;}return true;}",
+        "language": "c#",
+        "code": {
+          "content": "bool IsPrime(int n){if(n<=1)return false;for(int i=2;i*i<=n;i++){if(n%i==0)return false;}return true;}",
+          "language": "c#"
+        }
+      },
+      {
+        "content": "int isPrime(int n){if(n<=1)return 0;for(int i=2;i*i<=n;i++){if(n%i==0)return 0;}return 1;}",
+        "language": "c",
+        "code": {
+          "content": "int isPrime(int n){if(n<=1)return 0;for(int i=2;i*i<=n;i++){if(n%i==0)return 0;}return 1;}",
+          "language": "c"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Write a code to check Palindrome String",
+    "answer": "A palindrome reads the same backward as forward.",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "def is_palindrome(s): return s == s[::-1]",
+        "language": "python",
+        "code": {
+          "content": "def is_palindrome(s): return s == s[::-1]",
+          "language": "python"
+        }
+      },
+      {
+        "content": "function isPalindrome(s){return s === s.split('').reverse().join('');}",
+        "language": "javascript",
+        "code": {
+          "content": "function isPalindrome(s){return s === s.split('').reverse().join('');}",
+          "language": "javascript"
+        }
+      },
+      {
+        "content": "boolean isPalindrome(String s){return s.equals(new StringBuilder(s).reverse().toString());}",
+        "language": "java",
+        "code": {
+          "content": "boolean isPalindrome(String s){return s.equals(new StringBuilder(s).reverse().toString());}",
+          "language": "java"
+        }
+      },
+      {
+        "content": "bool isPalindrome(string s){string rev = string(s.rbegin(), s.rend()); return s == rev;}",
+        "language": "c++",
+        "code": {
+          "content": "bool isPalindrome(string s){string rev = string(s.rbegin(), s.rend()); return s == rev;}",
+          "language": "c++"
+        }
+      },
+      {
+        "content": "bool IsPalindrome(string s){char[] c = s.ToCharArray(); Array.Reverse(c); return s.Equals(new string(c));}",
+        "language": "c#",
+        "code": {
+          "content": "bool IsPalindrome(string s){char[] c = s.ToCharArray(); Array.Reverse(c); return s.Equals(new string(c));}",
+          "language": "c#"
+        }
+      },
+      {
+        "content": "int isPalindrome(char s[]){int i=0,j=strlen(s)-1;while(i<j){if(s[i++]!=s[j--])return 0;}return 1;}",
+        "language": "c",
+        "code": {
+          "content": "int isPalindrome(char s[]){int i=0,j=strlen(s)-1;while(i<j){if(s[i++]!=s[j--])return 0;}return 1;}",
+          "language": "c"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What is React?",
+    "answer": "React is a JavaScript library for building user interfaces.",
+    "category": "react",
+    "difficulty": "simple",
+    "answers": []
+  },
+  {
+    "question": "What is JSX?",
+    "answer": "JSX is a syntax extension that looks like HTML and is used with React to describe UI.",
+    "category": "react",
+    "difficulty": "simple",
+    "answers": []
+  },
+  {
+    "question": "What are hooks in React?",
+    "answer": "Hooks let you use state and lifecycle features in functional components.",
+    "category": "react",
+    "difficulty": "medium",
+    "answers": []
+  },
+  {
+    "question": "What is useEffect used for?",
+    "answer": "It\u2019s used to perform side effects like data fetching in functional components.",
+    "category": "react",
+    "difficulty": "medium",
+    "answers": []
+  },
+  {
+    "question": "Explain Virtual DOM.",
+    "answer": "Virtual DOM is a lightweight copy of the actual DOM that allows efficient updates.",
+    "category": "react",
+    "difficulty": "hard",
+    "answers": []
+  },
+  {
+    "question": "What is React Fiber?",
+    "answer": "React Fiber is the new reconciliation engine in React for improved performance and flexibility.",
+    "category": "react",
+    "difficulty": "hard",
+    "answers": []
   }
 ]
