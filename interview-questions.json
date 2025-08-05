@@ -1,77 +1,69 @@
 [
   {
-    "question": "Tell me about yourself",
-    "answer": "I'm a recent graduate in Computer Science with a strong passion for software development and continuous learning.",
+    "question": "What is an Array?",
+    "answer": "Array is collection of same data type values",
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "array is collection of **data**",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+{
+"question": "What is an Object?",
+"answer": "Object is collection of same data type values",
+"category": "logical",
+"difficulty": "simple",
+"answers": []
+},
+  {
+    "question": "Write a code for **Palindrome** ?",
+    "answer": null,
+    "category": "logical",
+    "difficulty": "simple",
+    "answers": [
+      {
+        "content": "// program to check if the string is palindrome or not",
+        "language": "",
+        "code": {
+          "content": "function checkPalindrome(string) {\n  const len = string.length;\n  for (let i = 0; i < len / 2; i++) {\n    if (string[i] !== string[len - 1 - i]) {\n      return 'It is not a palindrome';\n    }\n  }\n  return 'It is a palindrome';\n}\nconst string = prompt('Enter a string: ');\nconst value = checkPalindrome(string);\nconsole.log(value);",
+          "language": "javascript"
+        }
+      },
+      {
+        "content": "python",
+        "language": "",
+        "code": {
+          "content": "# Program to check if a string is palindrome or not\nmy_str = 'aIbohPhoBiA'\nmy_str = my_str.casefold()\nrev_str = reversed(my_str)\nif list(my_str) == list(rev_str):\n    print(\"The string is a palindrome.\")\nelse:\n    print(\"The string is not a palindrome.\")",
+          "language": "python"
+        }
+      }
+    ]
+  },
+  {
+    "question": "what is an object",
+    "answer": "object is an object",
+    "category": "technical",
+    "difficulty": "hard",
+    "answers": [
+      {
+        "content": "object is an object",
+        "language": "",
+        "code": null
+      }
+    ]
+  },
+  {
+    "question": "tell me about yourself",
+    "answer": "Hi there",
     "category": "hr",
     "difficulty": "simple",
     "answers": [
       {
-        "content": "I'm a recent graduate in Computer Science with a strong passion for software development and continuous learning.",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "Why should we hire you?",
-    "answer": "Because I bring a fresh perspective, quick learning ability, and I\u2019m eager to contribute with full dedication.",
-    "category": "hr",
-    "difficulty": "simple",
-    "answers": [
-      {
-        "content": "Because I bring a fresh perspective, quick learning ability, and I\u2019m eager to contribute with full dedication.",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "What are your strengths and weaknesses?",
-    "answer": "My strength is adaptability and quick learning. My weakness was overcommitting, but I\u2019ve learned to manage my time better.",
-    "category": "hr",
-    "difficulty": "medium",
-    "answers": [
-      {
-        "content": "My strength is adaptability and quick learning. My weakness was overcommitting, but I\u2019ve learned to manage my time better.",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "Where do you see yourself in 5 years?",
-    "answer": "I see myself leading impactful projects and growing into a leadership or specialist role, continuously learning and contributing.",
-    "category": "hr",
-    "difficulty": "medium",
-    "answers": [
-      {
-        "content": "I see myself leading impactful projects and growing into a leadership or specialist role, continuously learning and contributing.",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "Tell me about a time you failed and how you handled it.",
-    "answer": "During a group project, I miscommunicated a critical deadline. I took responsibility, worked overtime, and ensured we delivered on time.",
-    "category": "hr",
-    "difficulty": "hard",
-    "answers": [
-      {
-        "content": "During a group project, I miscommunicated a critical deadline. I took responsibility, worked overtime, and ensured we delivered on time.",
-        "language": "",
-        "code": null
-      }
-    ]
-  },
-  {
-    "question": "How do you handle conflict in a team?",
-    "answer": "By understanding all perspectives, remaining calm, and guiding the team toward a collaborative resolution.",
-    "category": "hr",
-    "difficulty": "hard",
-    "answers": [
-      {
-        "content": "By understanding all perspectives, remaining calm, and guiding the team toward a collaborative resolution.",
+        "content": "Hi there",
         "language": "",
         "code": null
       }
