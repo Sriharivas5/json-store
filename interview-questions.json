@@ -68,5 +68,13 @@
         "code": null
       }
     ]
+  },
+   {
+    "question": "What is **JSX**",
+    "answer": "JSX stands for javascript **XML**",
+    "category": "React",
+    "difficulty": "simple",
+    "answers": []
   }
+  
 ]
