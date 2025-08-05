@@ -1,7 +1,7 @@
 [
   {
     "question": "What is an Array?",
-    "answer": "Array is collection of same data type values",
+    "answer": "Array is collection of same data type **Values**",
     "category": "logical",
     "difficulty": "simple",
     "answers": [
