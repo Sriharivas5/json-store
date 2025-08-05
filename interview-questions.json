@@ -1,155 +1,80 @@
 [
   {
-    "question": "Tell me about ** yourself **",
-    "answer": "I'm a recent graduate with a strong passion for technology and continuous learning...",
+    "question": "Tell me about yourself",
+    "answer": "I'm a recent graduate in Computer Science with a strong passion for software development and continuous learning.",
     "category": "hr",
     "difficulty": "simple",
-    "answers": []
+    "answers": [
+      {
+        "content": "I'm a recent graduate in Computer Science with a strong passion for software development and continuous learning.",
+        "language": "",
+        "code": null
+      }
+    ]
   },
   {
     "question": "Why should we hire you?",
-    "answer": "Because I bring a unique combination of enthusiasm, adaptability, and a strong academic background...",
+    "answer": "Because I bring a fresh perspective, quick learning ability, and I\u2019m eager to contribute with full dedication.",
     "category": "hr",
     "difficulty": "simple",
-    "answers": []
-  },
-  {
-    "question": "Where do you see yourself in 5 years?",
-    "answer": "In five years, I envision myself growing into a leadership position where I can contribute to strategic decisions...",
-    "category": "hr",
-    "difficulty": "medium",
-    "answers": []
+    "answers": [
+      {
+        "content": "Because I bring a fresh perspective, quick learning ability, and I\u2019m eager to contribute with full dedication.",
+        "language": "",
+        "code": null
+      }
+    ]
   },
   {
     "question": "What are your strengths and weaknesses?",
-    "answer": "My strengths include adaptability, quick learning, and teamwork. As for weaknesses, I sometimes over-focus on details...",
+    "answer": "My strength is adaptability and quick learning. My weakness was overcommitting, but I\u2019ve learned to manage my time better.",
     "category": "hr",
     "difficulty": "medium",
-    "answers": []
-  },
-  {
-    "question": "Describe a time you handled a conflict.",
-    "answer": "During a group project, a team member missed several deadlines. I initiated a one-on-one conversation...",
-    "category": "hr",
-    "difficulty": "hard",
-    "answers": []
-  },
-  {
-    "question": "Tell me about a time you failed and what you learned.",
-    "answer": "In my second year, I failed to complete a mini-project on time. This taught me better planning and communication...",
-    "category": "hr",
-    "difficulty": "hard",
-    "answers": []
-  },
-
-  {
-    "question": "What is an array?",
-    "answer": "An array is a data structure used to store multiple elements of the same data type at contiguous memory locations.",
-    "category": "technical",
-    "difficulty": "simple",
-    "answers": []
-  },
-  {
-    "question": "What is a variable?",
-    "answer": "A variable is a container for storing data values that can change during program execution.",
-    "category": "technical",
-    "difficulty": "simple",
-    "answers": []
-  },
-  {
-    "question": "Explain OOP concepts.",
-    "answer": "OOP stands for Object-Oriented Programming, and includes concepts like Encapsulation, Inheritance, Polymorphism, and Abstraction.",
-    "category": "technical",
-    "difficulty": "medium",
-    "answers": []
-  },
-  {
-    "question": "What is the difference between stack and heap?",
-    "answer": "Stack stores static memory, while heap stores dynamic memory allocations.",
-    "category": "technical",
-    "difficulty": "medium",
-    "answers": []
-  },
-  {
-    "question": "Explain the concept of multithreading.",
-    "answer": "Multithreading allows concurrent execution of two or more threads, improving performance for certain tasks.",
-    "category": "technical",
-    "difficulty": "hard",
-    "answers": []
-  },
-  {
-    "question": "What are design patterns?",
-    "answer": "Design patterns are proven solutions to common software design problems.",
-    "category": "technical",
-    "difficulty": "hard",
-    "answers": []
-  },
-
-  {
-    "question": "Write a program to check Prime Number",
-    "answer": null,
-    "category": "logical",
-    "difficulty": "simple",
     "answers": [
-      { "language": "python", "code": "num = 29\nif num > 1:\n  for i in range(2, int(num**0.5) + 1):\n    if num % i == 0:\n      print('Not Prime')\n      break\n  else:\n    print('Prime')" },
-      { "language": "javascript", "code": "function isPrime(n) {\n  if (n <= 1) return false;\n  for (let i = 2; i <= Math.sqrt(n); i++) {\n    if (n % i === 0) return false;\n  }\n  return true;\n}" },
-      { "language": "c", "code": "#include <stdio.h>\nint main() {\n  int n = 29, i, flag = 0;\n  for (i = 2; i <= n/2; i++) {\n    if (n % i == 0) {\n      flag = 1; break;\n    }\n  }\n  if (flag == 0) printf(\"Prime\");\n  else printf(\"Not Prime\");\n  return 0;\n}" },
-      { "language": "java", "code": "public class Prime {\n  public static void main(String[] args) {\n    int num = 29, flag = 0;\n    for (int i = 2; i <= num / 2; ++i) {\n      if (num % i == 0) {\n        flag = 1; break;\n      }\n    }\n    System.out.println(flag == 0 ? \"Prime\" : \"Not Prime\");\n  }\n}" },
-      { "language": "cpp", "code": "#include<iostream>\nusing namespace std;\nint main() {\n  int n = 29;\n  bool prime = true;\n  for(int i = 2; i <= n/2; i++) {\n    if(n % i == 0) { prime = false; break; }\n  }\n  cout << (prime ? \"Prime\" : \"Not Prime\");\n}" },
-      { "language": "c#", "code": "using System;\nclass Program {\n  static void Main() {\n    int num = 29, flag = 0;\n    for (int i = 2; i <= num / 2; i++) {\n      if (num % i == 0) { flag = 1; break; }\n    }\n    Console.WriteLine(flag == 0 ? \"Prime\" : \"Not Prime\");\n  }\n}" }
+      {
+        "content": "My strength is adaptability and quick learning. My weakness was overcommitting, but I\u2019ve learned to manage my time better.",
+        "language": "",
+        "code": null
+      }
     ]
   },
   {
-    "question": "Fibonacci Series",
-    "answer": null,
-    "category": "logical",
-    "difficulty": "simple",
+    "question": "Where do you see yourself in 5 years?",
+    "answer": "I see myself leading impactful projects and growing into a leadership or specialist role, continuously learning and contributing.",
+    "category": "hr",
+    "difficulty": "medium",
     "answers": [
-      { "language": "python", "code": "a, b = 0, 1\nfor _ in range(10):\n  print(a, end=' ')\n  a, b = b, a + b" },
-      { "language": "javascript", "code": "let a = 0, b = 1;\nfor (let i = 0; i < 10; i++) {\n  console.log(a);\n  [a, b] = [b, a + b];\n}" }
+      {
+        "content": "I see myself leading impactful projects and growing into a leadership or specialist role, continuously learning and contributing.",
+        "language": "",
+        "code": null
+      }
     ]
   },
-
   {
-    "question": "What is JSX?",
-    "answer": "JSX stands for JavaScript XML. It allows us to write HTML in React.",
-    "category": "react",
-    "difficulty": "simple",
-    "answers": []
-  },
-  {
-    "question": "What are props in React?",
-    "answer": "Props are inputs to components. They are used to pass data from one component to another.",
-    "category": "react",
-    "difficulty": "simple",
-    "answers": []
-  },
-  {
-    "question": "What is the difference between functional and class components?",
-    "answer": "Functional components are stateless and use hooks. Class components can hold state and have lifecycle methods.",
-    "category": "react",
-    "difficulty": "medium",
-    "answers": []
-  },
-  {
-    "question": "What is useEffect hook?",
-    "answer": "useEffect is used for side effects such as fetching data, subscriptions, or manually changing the DOM.",
-    "category": "react",
-    "difficulty": "medium",
-    "answers": []
-  },
-  {
-    "question": "How does React reconciliation work?",
-    "answer": "React compares the new virtual DOM with the previous one using a diffing algorithm, and only updates what’s changed.",
-    "category": "react",
+    "question": "Tell me about a time you failed and how you handled it.",
+    "answer": "During a group project, I miscommunicated a critical deadline. I took responsibility, worked overtime, and ensured we delivered on time.",
+    "category": "hr",
     "difficulty": "hard",
-    "answers": []
+    "answers": [
+      {
+        "content": "During a group project, I miscommunicated a critical deadline. I took responsibility, worked overtime, and ensured we delivered on time.",
+        "language": "",
+        "code": null
+      }
+    ]
   },
   {
-    "question": "Explain React Fiber architecture.",
-    "answer": "React Fiber is a complete rewrite of the React core algorithm to enable incremental rendering and prioritize updates.",
-    "category": "react",
+    "question": "How do you handle conflict in a team?",
+    "answer": "By understanding all perspectives, remaining calm, and guiding the team toward a collaborative resolution.",
+    "category": "hr",
     "difficulty": "hard",
-    "answers": []
+    "answers": [
+      {
+        "content": "By understanding all perspectives, remaining calm, and guiding the team toward a collaborative resolution.",
+        "language": "",
+        "code": null
+      }
+    ]
   }
 ]
